@@ -30,27 +30,27 @@ The exact installed versions are defined in requirements.txt.
 The following tree represents the repository structure identified during review. Some directories may contain additional files not listed here.
 
 books_api/
-├── app/
-│   ├── models.py          # Book data model
-│   ├── serializers.py     # Book API serialization
-│   ├── views.py           # API request handling
-│   └── urls.py            # API route registration
-│
-├── django_api/
-│   ├── settings.py        # Django application settings
-│   ├── urls.py            # Root URL configuration
-│   ├── wsgi.py            # WSGI application entry point
-│   └── ...
-│
-├── staticfiles/           # Static files directory
-├── .venv/                 # Local Python virtual environment
-├── Dockerfile             # Container build and startup configuration
-├── manage.py              # Django management entry point
-├── requirements.txt       # Python dependencies
-├── db.sqlite3             # SQLite database file
-├── README.md              # Project documentation
-├── books_api_ui.png       # Project image
-└── ARCHITECTURE.md        # Architecture documentation
+<br>├── app/
+<br>│   ├── models.py          # Book data model
+<br>│   ├── serializers.py     # Book API serialization
+<br>│   ├── views.py           # API request handling
+<br>│   └── urls.py            # API route registration
+<br>│
+<br>├── django_api/
+<br>│   ├── settings.py        # Django application settings
+<br>│   ├── urls.py            # Root URL configuration
+<br>│   ├── wsgi.py            # WSGI application entry point
+<br>│   └── ...
+<br>│
+<br>├── staticfiles/           # Static files directory
+<br>├── .venv/                 # Local Python virtual environment
+<br>├── Dockerfile             # Container build and startup configuration
+<br>├── manage.py              # Django management entry point
+<br>├── requirements.txt       # Python dependencies
+<br>├── db.sqlite3             # SQLite database file
+<br>├── README.md              # Project documentation
+<br>├── books_api_ui.png       # Project image
+<br>└── ARCHITECTURE.md        # Architecture documentation
 
 Key responsibilities
 File or directory	Responsibility

@@ -13,7 +13,7 @@
 ### App's architectural details are availbale on the Architecture.MD file
 
 ### App's active URL:
-> <br>https://books-api-v1-x1p5.onrender.com/api/books/
+> https://books-api-v1-x1p5.onrender.com/api/books/
 
 
 
