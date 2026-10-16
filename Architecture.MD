@@ -14,14 +14,20 @@ The application follows Django's project-and-app structure:
 > Docker and Gunicorn provide the containerized application runtime.
 
 Technology stack - Component Technology
-> Programming language-	Python
-> Web framework-	Django
-> REST API-	Django REST Framework
-> Data access-	Django ORM
-> Database-	PostgreSQL configured for live deployment; SQLite database file also present (for local testing)
-> Application server-	Gunicorn
-> Static file handling-	WhiteNoise dependency
-> Containerization-	Docker
+> <br>Programming language-	Python
+> <br>Web framework-	Django
+> <br>REST API-	Django REST Framework
+> <br>Data access-	Django ORM
+> <br>Database-	PostgreSQL configured for live deployment; SQLite database file also present (for local testing)
+> <br>Application server-	Gunicorn
+> <br>Static file handling-	WhiteNoise dependency
+> <br>Containerization-	Docker
+> <br>Public Repository- Github Repo
+> <br>Public container hub- Github  Package
+> <br>App local/test environment- LinuxMint
+> <br>App live deployment- Render Cloud
+> <br>Database live deployment- AWS-RDS
+> <br> Automation tool used for live database setup- Terraform
 
 The exact installed versions are defined in requirements.txt. 
 
